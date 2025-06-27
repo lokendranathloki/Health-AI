@@ -1,0 +1,619 @@
+[
+    {
+        "symptoms": [
+            "swelling",
+            "heavy sweating",
+            "tiredness",
+            "sore throat",
+            "sensitivity to light"
+        ],
+        "predicted_disease": "Menstrual Problems",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "hair loss",
+            "sensitivity to light",
+            "joint stiffness",
+            "loss of appetite"
+        ],
+        "predicted_disease": "Pancreas Inflammation",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "heat intolerance",
+            "fever",
+            "jaundice (yellow skin)",
+            "dry mouth",
+            "feeling sad"
+        ],
+        "predicted_disease": "Gout",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "tingling",
+            "hair loss",
+            "heat intolerance"
+        ],
+        "predicted_disease": "Flu",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "heavy sweating",
+            "heat intolerance",
+            "body aches",
+            "sensitivity to light",
+            "diarrhea"
+        ],
+        "predicted_disease": "Typhoid Fever",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "anxiety",
+            "stomach pain",
+            "hair loss",
+            "joint stiffness",
+            "chest pain"
+        ],
+        "predicted_disease": "Multiple Sclerosis",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "irritability",
+            "skin rash",
+            "headache"
+        ],
+        "predicted_disease": "Ear Infection",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "constipation",
+            "jaundice (yellow skin)",
+            "shortness of breath",
+            "feeling sad"
+        ],
+        "predicted_disease": "Irritable Bowel Syndrome",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "headache",
+            "blood in stool",
+            "frequent infections"
+        ],
+        "predicted_disease": "Sinus Infection",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "heavy sweating",
+            "vomiting",
+            "heat intolerance",
+            "weight loss",
+            "heart palpitations"
+        ],
+        "predicted_disease": "Underactive Thyroid (Hypothyroidism)",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "excessive sweating",
+            "heat intolerance",
+            "body aches",
+            "sensitivity to light",
+            "diarrhea"
+        ],
+        "predicted_disease": "Typhoid",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "anxiety",
+            "abdominal pain",
+            "hair loss",
+            "stiffness",
+            "chest pain"
+        ],
+        "predicted_disease": "Multiple Sclerosis",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "irritability",
+            "rash",
+            "headache"
+        ],
+        "predicted_disease": "Otitis Media",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "constipation",
+            "yellow skin",
+            "shortness of breath",
+            "depression"
+        ],
+        "predicted_disease": "Irritable Bowel Syndrome",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "headache",
+            "blood in stool",
+            "frequent infections"
+        ],
+        "predicted_disease": "Sinusitis",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "excessive sweating",
+            "vomiting",
+            "heat intolerance",
+            "weight loss",
+            "palpitations"
+        ],
+        "predicted_disease": "Hypothyroidism",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "excessive sweating",
+            "constipation",
+            "shortness of breath"
+        ],
+        "predicted_disease": "Tonsillitis",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "vomiting",
+            "pale skin",
+            "blurred vision",
+            "yellow skin",
+            "frequent urination"
+        ],
+        "predicted_disease": "Allergic Rhinitis",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "fever",
+            "shortness of breath",
+            "stiffness",
+            "weight loss"
+        ],
+        "predicted_disease": "Sinusitis",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "red eyes",
+            "weight loss",
+            "frequent infections"
+        ],
+        "predicted_disease": "Psoriasis",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "vomiting",
+            "nausea",
+            "irritability",
+            "swelling",
+            "shortness of breath"
+        ],
+        "predicted_disease": "Migraine",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "red eyes",
+            "joint pain",
+            "hair loss",
+            "blood in stool",
+            "rash"
+        ],
+        "predicted_disease": "GERD",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "rash",
+            "blurred vision",
+            "increased thirst",
+            "frequent infections"
+        ],
+        "predicted_disease": "Bacterial Meningitis",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "cough",
+            "anxiety",
+            "dark urine"
+        ],
+        "predicted_disease": "GERD",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "frequent urination",
+            "shortness of breath",
+            "back pain"
+        ],
+        "predicted_disease": "Hypothyroidism",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "dizziness",
+            "increased thirst",
+            "muscle cramps",
+            "shortness of breath",
+            "fever"
+        ],
+        "predicted_disease": "Epilepsy",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "weight loss",
+            "nausea",
+            "frequent infections",
+            "back pain"
+        ],
+        "predicted_disease": "Psoriasis",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "depression",
+            "chest pain",
+            "diarrhea",
+            "stiffness"
+        ],
+        "predicted_disease": "Pneumonia",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "chest pain",
+            "weight gain",
+            "itchy eyes"
+        ],
+        "predicted_disease": "Typhoid",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "shortness of breath",
+            "frequent infections",
+            "excessive sweating",
+            "anxiety"
+        ],
+        "predicted_disease": "Celiac Disease",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "back pain",
+            "depression",
+            "excessive sweating",
+            "dizziness"
+        ],
+        "predicted_disease": "GERD",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "tingling",
+            "shortness of breath",
+            "red eyes",
+            "blurred vision",
+            "loss of appetite"
+        ],
+        "predicted_disease": "Common Cold",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "blurred vision",
+            "tingling",
+            "runny nose",
+            "diarrhea",
+            "depression"
+        ],
+        "predicted_disease": "Psoriasis",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "headache",
+            "shortness of breath",
+            "numbness"
+        ],
+        "predicted_disease": "Insomnia",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "sensitivity to light",
+            "back pain",
+            "numbness",
+            "nausea",
+            "joint pain"
+        ],
+        "predicted_disease": "Allergic Rhinitis",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "difficulty sleeping",
+            "blood in stool",
+            "cold intolerance",
+            "runny nose",
+            "cough"
+        ],
+        "predicted_disease": "Hyperthyroidism",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "red eyes",
+            "fever",
+            "fatigue",
+            "hair loss"
+        ],
+        "predicted_disease": "Anemia",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "irritability",
+            "weight loss",
+            "yellow skin",
+            "shortness of breath",
+            "depression"
+        ],
+        "predicted_disease": "Gallstones",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "irritability",
+            "fever",
+            "palpitations",
+            "diarrhea"
+        ],
+        "predicted_disease": "Pneumonia",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "weight gain",
+            "sensitivity to light",
+            "difficulty sleeping",
+            "excessive sweating"
+        ],
+        "predicted_disease": "Irritable Bowel Syndrome",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "chest pain",
+            "diarrhea",
+            "itchy eyes"
+        ],
+        "predicted_disease": "Jaundice",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "weight loss",
+            "depression",
+            "pale skin",
+            "frequent urination"
+        ],
+        "predicted_disease": "Jaundice",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "excessive sweating",
+            "tingling",
+            "fever",
+            "vomiting",
+            "cold intolerance"
+        ],
+        "predicted_disease": "Hypertension",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "chest pain",
+            "dry mouth",
+            "palpitations",
+            "excessive sweating",
+            "yellow skin"
+        ],
+        "predicted_disease": "Otitis Media",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "dry mouth",
+            "excessive sweating",
+            "itchy eyes",
+            "tingling",
+            "frequent infections"
+        ],
+        "predicted_disease": "Tuberculosis",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "excessive sweating",
+            "sore throat",
+            "cough"
+        ],
+        "predicted_disease": "Gallstones",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "diarrhea",
+            "constipation",
+            "cough"
+        ],
+        "predicted_disease": "Common Cold",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "blurred vision",
+            "difficulty sleeping",
+            "weight loss"
+        ],
+        "predicted_disease": "Heart Disease",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "muscle cramps",
+            "sore throat",
+            "body aches",
+            "red eyes",
+            "stiffness"
+        ],
+        "predicted_disease": "Irritable Bowel Syndrome",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "shortness of breath",
+            "runny nose",
+            "numbness",
+            "fatigue"
+        ],
+        "predicted_disease": "Jaundice",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "cold intolerance",
+            "joint pain",
+            "shortness of breath",
+            "dizziness"
+        ],
+        "predicted_disease": "Appendicitis",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "stiffness",
+            "nausea",
+            "palpitations",
+            "diarrhea",
+            "heat intolerance"
+        ],
+        "predicted_disease": "Migraine",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "joint pain",
+            "red eyes",
+            "increased thirst",
+            "sensitivity to light",
+            "nausea"
+        ],
+        "predicted_disease": "COVID-19",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "diarrhea",
+            "loss of appetite",
+            "sore throat",
+            "blood in stool",
+            "dizziness"
+        ],
+        "predicted_disease": "Chikungunya",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "dizziness",
+            "headache",
+            "weight loss",
+            "abdominal pain"
+        ],
+        "predicted_disease": "Menstrual Disorder",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "sensitivity to light",
+            "loss of appetite",
+            "frequent urination",
+            "swelling",
+            "frequent infections"
+        ],
+        "predicted_disease": "Dengue",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "sensitivity to light",
+            "frequent urination",
+            "depression"
+        ],
+        "predicted_disease": "Heart Disease",
+        "confidence": "Medium"
+    },
+    {
+        "symptoms": [
+            "blurred vision",
+            "sensitivity to light",
+            "palpitations",
+            "heat intolerance"
+        ],
+        "predicted_disease": "Tuberculosis",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "back pain",
+            "anxiety",
+            "yellow skin",
+            "frequent urination"
+        ],
+        "predicted_disease": "Menstrual Disorder",
+        "confidence": "Low"
+    },
+    {
+        "symptoms": [
+            "frequent infections",
+            "numbness",
+            "dark urine"
+        ],
+        "predicted_disease": "Jaundice",
+        "confidence": "High"
+    },
+    {
+        "symptoms": [
+            "abdominal pain",
+            "depression",
+            "pale skin"
+        ],
+        "predicted_disease": "Arthritis",
+        "confidence": "Low"
+    }
+]

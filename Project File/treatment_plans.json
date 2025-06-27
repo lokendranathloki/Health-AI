@@ -1,0 +1,149 @@
+[
+    {
+        "disease": "Diabetes",
+        "treatment": {
+            "medication": [
+                "Metformin",
+                "Insulin (if required)"
+            ],
+            "lifestyle": [
+                "Low-carb diet",
+                "Daily exercise",
+                "Regular glucose monitoring"
+            ],
+            "follow_up": "Every 3 months with HbA1c test"
+        }
+    },
+    {
+        "disease": "Hypertension",
+        "treatment": {
+            "medication": [
+                "Amlodipine",
+                "Losartan"
+            ],
+            "lifestyle": [
+                "Low-sodium diet",
+                "Weight loss",
+                "30 minutes walking daily"
+            ],
+            "follow_up": "Blood pressure monitoring weekly"
+        }
+    },
+    {
+        "disease": "Asthma",
+        "treatment": {
+            "medication": [
+                "Inhaled corticosteroids",
+                "Salbutamol inhaler"
+            ],
+            "lifestyle": [
+                "Avoid triggers",
+                "Breathing exercises"
+            ],
+            "follow_up": "Monthly review"
+        }
+    },
+    {
+        "disease": "COVID-19",
+        "treatment": {
+            "medication": [
+                "Paracetamol",
+                "Antivirals (if prescribed)"
+            ],
+            "lifestyle": [
+                "Isolation",
+                "Hydration",
+                "Rest"
+            ],
+            "follow_up": "Monitor oxygen levels and temperature daily"
+        }
+    },
+    {
+        "disease": "Migraine",
+        "treatment": {
+            "medication": [
+                "Ibuprofen",
+                "Triptans"
+            ],
+            "lifestyle": [
+                "Avoid triggers",
+                "Regular sleep",
+                "Stress management"
+            ],
+            "follow_up": "As needed during episodes"
+        }
+    },
+    {
+        "disease": "Depression",
+        "treatment": {
+            "medication": [
+                "SSRIs like Sertraline",
+                "Counseling"
+            ],
+            "lifestyle": [
+                "Regular exercise",
+                "Sleep hygiene",
+                "Social support"
+            ],
+            "follow_up": "Psychiatrist visits every 2-4 weeks"
+        }
+    },
+    {
+        "disease": "Tuberculosis",
+        "treatment": {
+            "medication": [
+                "Isoniazid",
+                "Rifampicin",
+                "Ethambutol",
+                "Pyrazinamide"
+            ],
+            "lifestyle": [
+                "Good nutrition",
+                "Avoid alcohol"
+            ],
+            "follow_up": "Monthly sputum test and liver function tests"
+        }
+    },
+    {
+        "disease": "Anemia",
+        "treatment": {
+            "medication": [
+                "Iron supplements",
+                "Vitamin B12 (if deficient)"
+            ],
+            "lifestyle": [
+                "Iron-rich foods",
+                "Avoid tea/coffee with meals"
+            ],
+            "follow_up": "Hemoglobin levels every 4-6 weeks"
+        }
+    },
+    {
+        "disease": "Thyroid Disorder",
+        "treatment": {
+            "medication": [
+                "Levothyroxine (Hypothyroid)",
+                "Antithyroid meds (Hyperthyroid)"
+            ],
+            "lifestyle": [
+                "Regular monitoring",
+                "Avoid excessive iodine"
+            ],
+            "follow_up": "TSH test every 6-8 weeks"
+        }
+    },
+    {
+        "disease": "Arthritis",
+        "treatment": {
+            "medication": [
+                "NSAIDs",
+                "DMARDs (for rheumatoid arthritis)"
+            ],
+            "lifestyle": [
+                "Physiotherapy",
+                "Joint-friendly exercise"
+            ],
+            "follow_up": "Rheumatology visits every 3 months"
+        }
+    }
+]
