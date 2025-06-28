@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <style>
+        body {
+            background: #f0f4f8;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            margin: 60px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(63,69,81,0.16);
+            padding: 32px 24px;
+            text-align: center;
+        }
+        .option {
+            display: block;
+            margin: 18px 0;
+            padding: 16px;
+            background: #4f8cff;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background 0.2s;
+        }
+        .option:hover {
+            background: #2563eb;
+        }
+        .logout-link {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            background: #e53e3e;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .logout-link:hover {
+            background: #b91c1c;
+        }
+    </style>
+</head>
+<body>
+    <a href="{{ url_for('logout') }}" class="logout-link">Logout</a>
+    <div class="container">
+        <h2>Welcome, {{ name }}!</h2>
+        <p>We're glad to see you, {{ name }}. Choose a HealthAI service below:</p>
+        <a class="option" href="/chat">🤖 Patient Chat</a>
+        <a class="option" href="/disease">🩺 Disease Prediction</a>
+        <a class="option" href="/treatment">💊 Treatment Plans</a>
+        <a class="option" href="/analytics">📊 Health Analytics</a>
+        <a class="option" href="https://Cipla.careplix.com" target="_blank" rel="noopener">❤️ Check Heart Health</a>
+    </div>
+</body>
+</html>

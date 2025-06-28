@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI & Health Analytics</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f0f4f8; }
+        .container { max-width: 700px; margin: 40px auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(63,69,81,0.16); padding: 32px 24px; }
+        form { margin-bottom: 32px; }
+        label, input { display: block; margin: 8px 0; }
+        .result, .ai-insight { margin-bottom: 24px; background: #e0e7ff; padding: 16px; border-radius: 8px; }
+        .charts { display: flex; flex-wrap: wrap; gap: 24px; }
+        .chart-container { flex: 1 1 300px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>BMI & Health Analytics</h2>
+        <a href="{{ url_for('welcome') }}" style="
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            background: #4f8cff;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+            z-index: 1000;
+        ">&#8592; Back</a>
+        <form method="post">
+            <label for="height_cm">Height (cm):</label>
+            <input type="number" name="height_cm" id="height_cm" step="0.1" required>
+            <label for="weight_kg">Weight (kg):</label>
+            <input type="number" name="weight_kg" id="weight_kg" step="0.1" required>
+            <label for="heart_rate">Heart Rate (bpm):</label>
+            <input type="number" name="heart_rate" id="heart_rate" step="1" required>
+            <label for="blood_pressure">Blood Pressure (e.g., 120/80):</label>
+            <input type="text" name="blood_pressure" id="blood_pressure" required>
+            <label for="blood_glucose">Blood Glucose (mg/dL):</label>
+            <input type="number" name="blood_glucose" id="blood_glucose" step="0.1" required>
+            <button type="submit">Calculate & Save</button>
+        </form>
+
+        {% if new_entry %}
+        <div class="result">
+            <strong>Your BMI:</strong> {{ new_entry.bmi }}<br>
+            <strong>Category:</strong> {{ new_entry.bmi_category }}<br>
+            <strong>Heart Rate:</strong> {{ new_entry.heart_rate }} bpm<br>
+            <strong>Blood Pressure:</strong> {{ new_entry.blood_pressure }}<br>
+            <strong>Blood Glucose:</strong> {{ new_entry.blood_glucose }} mg/dL
+        </div>
+        {% endif %}
+
+        {% if ai_insight %}
+        <div class="ai-insight">
+            <strong>AI Health Insight:</strong><br>
+            {{ ai_insight }}
+        </div>
+        {% endif %}
+
+        <h3>All Users' Health Analytics</h3>
+        <div class="charts">
+            <div class="chart-container">
+                <canvas id="bmiChart" width="300" height="200"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="heartRateChart" width="300" height="200"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="glucoseChart" width="300" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+    <script>
+        const userIds = {{ user_ids|tojson|safe }};
+        const bmis = {{ bmis|tojson|safe }};
+        const categories = {{ categories|tojson|safe }};
+        const heartRates = {{ heart_rates|tojson|safe }};
+        const bloodGlucoses = {{ blood_glucoses|tojson|safe }};
+        const dates = {{ dates|tojson|safe }};
+
+        // BMI Chart
+        new Chart(document.getElementById('bmiChart').getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: dates.length === bmis.length ? dates : userIds,
+                datasets: [{
+                    label: 'BMI',
+                    data: bmis,
+                    backgroundColor: categories.map(cat => {
+                        if (cat === "Underweight") return "#60a5fa";
+                        if (cat === "Normal weight") return "#34d399";
+                        if (cat === "Overweight") return "#fbbf24";
+                        return "#f87171";
+                    })
+                }]
+            },
+            options: { scales: { y: { beginAtZero: true } } }
+        });
+
+        // Heart Rate Chart
+        new Chart(document.getElementById('heartRateChart').getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: dates.length === heartRates.length ? dates : userIds,
+                datasets: [{
+                    label: 'Heart Rate (bpm)',
+                    data: heartRates,
+                    borderColor: "#4f8cff",
+                    backgroundColor: "#e0e7ff",
+                    fill: false,
+                    tension: 0.2
+                }]
+            },
+            options: { scales: { y: { beginAtZero: true } } }
+        });
+
+        // Blood Glucose Chart
+        new Chart(document.getElementById('glucoseChart').getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: dates.length === bloodGlucoses.length ? dates : userIds,
+                datasets: [{
+                    label: 'Blood Glucose (mg/dL)',
+                    data: bloodGlucoses,
+                    borderColor: "#fbbf24",
+                    backgroundColor: "#fef9c3",
+                    fill: false,
+                    tension: 0.2
+                }]
+            },
+            options: { scales: { y: { beginAtZero: true } } }
+        });
+    </script>
+</body>
+</html>
